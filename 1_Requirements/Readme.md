@@ -1,10 +1,36 @@
-## Requirements
+# Requirements
 
 ## Introduction
 
 Wiper system is automatically ON during the time of rainfall. The senor is fixed in the vehicle glass. The conductive (Touch) sensor is used in this project. It senses the rainfall and giving control signal to the control unit. The control unit activates the wiper motor automatically.
 
-## Components Used
+## WORKING PROCESS
+
+* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
+* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
+* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
+
+# SWOT ANALYSIS
+
+## Strength
+* The wiper comes back to default position even if stooped in the middle
+* Safety for the driver as well as the passengers in the vehicle
+* Clear Visibility to the Driver for neat ride.
+
+## Weakness
+* The total cost of the wiper system is high if implemented in real-time.
+* The major disadvantage is that STM32 contains only one button for all the operation
+* User has to undergo a sequence to acquire desired result and can't attain his result directly with the press of the button.
+
+## Opportunities
+* Rain sensing and automatic operation can be implemented as further enhancement.
+
+## Threats
+* Replacing the board is not possible if it malfunctions.
+* Can't have more functions as the functionality of the board is very basic.
+
+# Components Used
 
 ## Stm32
 
@@ -40,7 +66,7 @@ A cable, also known as a cord, plug, or connector transmits power or data betwee
 A push-button or simply button is a simple switch mechanism to control some aspect of a machine or a process. Buttons are typically made out of hard material, usually plastic or metal. 
 
 
-## High Level Requirements
+# High Level Requirements
 
 | ID | Description | Status |
 |----|--------------|-------|
@@ -48,26 +74,26 @@ A push-button or simply button is a simple switch mechanism to control some aspe
 | HLR02 | It operate manually | Implemented |
 | HLR03 | Displaying the information in led | Implemented |
 
-## Low Level Requirements
+# Low Level Requirements
 
 | ID | Description | Status |
 |----|--------------|--------|
 | LLR01 | It work functionally according to outside water | Implemented |
 | LLR02 | Consume less power | Implemented |
 
-## 4W's and 1H
+# 4W's and 1H
 
 ## What
-Wipers system are operated by an electric motor and vechile.
+Wipers system are operated by an electric motor and vechile. And to ensure safety for the passengers and drivers during rainy conditions.
 
 ## Why
-The main purpose of the wiper system is to clean the windscreen sufficiently to provide suitable visibility at all times.
+The main purpose of the wiper system is to clean the windscreen and to get a clear vision of the road.
 
 ## When 
-American inventor Mary Anderson received credit for the first operational windshield wiper, back in 1903. Anderson's “window cleaning device” used a rubber squeegee blade on an arm, operated via a hand-cranked lever from inside the vehicle.
+It is recommended to operate during dust or rain
 
 ## Where
 Wipers system can be activated by a lever located to the right of the steering wheel. Pulling the lever down should activate the windshield wipers on their lowest setting
 
 ## How
-When we turn the wiper on, the wiper switch sends the signal to the control module. The control module operates the wiper relay. The relay sends 12-volt power to the wiper motor.
+It is implemented with the help of STM32 with the desired operation of turning on the engine, changing of speeds and turning off with the help of Embedded c Programming.
