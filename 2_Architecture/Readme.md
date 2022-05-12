@@ -1,7 +1,7 @@
-# Flow chart
 
-![Flowchart WCS](https://user-images.githubusercontent.com/102732132/167931930-17a8da68-712a-4c2b-96f6-de2672155fa3.png)
+![Flow chart](https://user-images.githubusercontent.com/102732132/168134049-77e28918-331b-4087-a99a-657d43c12eeb.jpeg)
 
-# Structural diagram
 
-![structural](https://user-images.githubusercontent.com/101174057/167923856-3066018e-aab3-4bb1-ab80-f976023ccdec.png)
+![Block diagram](https://user-images.githubusercontent.com/102732132/168134153-475c8483-e2ba-4089-a708-09581a8e67da.jpeg)
+
+
