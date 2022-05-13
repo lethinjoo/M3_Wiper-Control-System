@@ -121,9 +121,6 @@ It is implemented with the help of STM32 with the desired operation of turning o
 ![Block diagram](https://user-images.githubusercontent.com/102732132/168136056-60a1d75a-57fc-4eb7-84f0-c56714b1cd03.jpeg)
 # Application
 *  It is used in four wheelers.
-
 *  It is used in aircraft.
-
 *  Low cost automation project.
-
 *  Less power consumption
