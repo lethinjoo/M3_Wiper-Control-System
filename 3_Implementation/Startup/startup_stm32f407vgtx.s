@@ -1,4 +1,3 @@
-
 .syntax unified
 .cpu cortex-m4
 .fpu softvfp
@@ -496,5 +495,3 @@ g_pfnVectors:
 	.thumb_set LCD_TFT_1_IRQHandler,Default_Handler
 
 	.weak	SystemInit
-
-/************************ (C) COPYRIGHT STMicroelectonics *****END OF FILE****/
