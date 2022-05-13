@@ -24,31 +24,31 @@ Wiper system is automatically ON during the time of rainfall. The senor is fixed
 
 ## WORKING PROCESS
 
-* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
-* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
-* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
-* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
+*  The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
+*  On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
+*  The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+*  If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# SWOT ANALYSIS
+## SWOT ANALYSIS
 
 ## Strength
-* The wiper comes back to default position even if stooped in the middle
-* Safety for the driver as well as the passengers in the vehicle
-* Clear Visibility to the Driver for neat ride.
+*  The wiper comes back to default position even if stooped in the middle
+*  Safety for the driver as well as the passengers in the vehicle
+*  Clear Visibility to the Driver for neat ride.
 
 ## Weakness
-* The total cost of the wiper system is high if implemented in real-time.
-* The major disadvantage is that STM32 contains only one button for all the operation
-* User has to undergo a sequence to acquire desired result and can't attain his result directly with the press of the button.
+*  The total cost of the wiper system is high if implemented in real-time.
+*  The major disadvantage is that STM32 contains only one button for all the operation
+*  User has to undergo a sequence to acquire desired result and can't attain his result directly with the press of the button.
 
 ## Opportunities
-* Rain sensing and automatic operation can be implemented as further enhancement.
+*  Rain sensing and automatic operation can be implemented as further enhancement.
 
 ## Threats
-* Replacing the board is not possible if it malfunctions.
-* Can't have more functions as the functionality of the board is very basic.
+*  Replacing the board is not possible if it malfunctions.
+*  Can't have more functions as the functionality of the board is very basic.
 
-# Components Used
+## Components Used
 
 ## STM32
 
@@ -84,7 +84,7 @@ A cable, also known as a cord, plug, or connector transmits power or data betwee
 A push-button or simply button is a simple switch mechanism to control some aspect of a machine or a process. Buttons are typically made out of hard material, usually plastic or metal. 
 
 
-# High Level Requirements
+## High Level Requirements
 
 | ID | Description | Status |
 |----|--------------|-------|
@@ -92,14 +92,14 @@ A push-button or simply button is a simple switch mechanism to control some aspe
 | HLR02 | It operate manually | Implemented |
 | HLR03 | Displaying the information in led | Implemented |
 
-# Low Level Requirements
+## Low Level Requirements
 
 | ID | Description | Status |
 |----|--------------|--------|
 | LLR01 | It work functionally according to outside water | Implemented |
 | LLR02 | Consume less power | Implemented |
 
-# 4W's and 1H
+## 4W's and 1H
 
 ## What
 Wipers system are operated by an electric motor and vechile. And to ensure safety for the passengers and drivers during rainy conditions.
@@ -120,10 +120,10 @@ It is implemented with the help of STM32 with the desired operation of turning o
 
 ![Block diagram](https://user-images.githubusercontent.com/102732132/168136056-60a1d75a-57fc-4eb7-84f0-c56714b1cd03.jpeg)
 # Application
-* It is used in four wheelers.
+*  It is used in four wheelers.
 
-* It is used in aircraft.
+*  It is used in aircraft.
 
-* Low cost automation project.
+*  Low cost automation project.
 
-* Less power consumption
+*  Less power consumption
