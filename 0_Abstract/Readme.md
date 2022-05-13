@@ -5,7 +5,7 @@ Modern windshield wipers can also be operated on an as-needed basis. The intermi
 
 Many wiper systems in cars today are controlled by a rain sensor, which measures the speed at which raindrops hit the windshield and activates the wipers. The inputs from the sensor are evaluated by a microprocessor, which then calculates the speed at which the wipers should travel.
     
-# Objective
+## Objective
    Our objective is to build a Wiper Control system using STM32 which is a 32-bit microcontroller IC.The wiper operation can be carried out with basic modes like On, speed change and Off. As STM32 contains only 1 push button, the same button is utilized for all operations.
    The discovery board contains 4 LEDs 
    *  The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
