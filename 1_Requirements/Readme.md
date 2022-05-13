@@ -42,11 +42,9 @@ The STM32 family of 32-bit microcontrollers based on the Arm® Cortex®-M proces
 
 A servomotor is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback.
 
-
 ## Resistors
 
 A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow.
-
 
 ## Capacitor
 
@@ -56,7 +54,6 @@ A capacitor is a device that stores electrical energy in an electric field. It i
 
 A light-emitting diode is a semiconductor light source that emits light when current flows through it. Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons.
 
-
 ## Cables and Connector
 
 A cable, also known as a cord, plug, or connector transmits power or data between devices or positions, which is covered in plastic by one or more wires.
@@ -64,7 +61,6 @@ A cable, also known as a cord, plug, or connector transmits power or data betwee
 ## Push Button
 
 A push-button or simply button is a simple switch mechanism to control some aspect of a machine or a process. Buttons are typically made out of hard material, usually plastic or metal. 
-
 
 ## High Level Requirements
 
