@@ -9,3 +9,6 @@ Naming Convection: "Wiper control system"
 ![Codiga Badge](https://api.codiga.io/project/33355/score/svg)
 ## Codiga Code Grade
 ![Codiga Badge](https://api.codiga.io/project/33355/status/svg)
+
+## Cppcheck Badge
+[![Cpp-Check](https://github.com/lethinjoo/M3_Wiper-Control-System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/lethinjoo/M3_Wiper-Control-System/actions/workflows/c-cpp.yml)
